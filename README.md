@@ -6,7 +6,7 @@
 
 不打算做个学究，仅就个人理解简单的梳理一下，不负责展开和深入，不确保与官方权威一致。
 
-##1. eureka
+## 1. eureka
 后端要做的各种业务，按照业务或代码逻辑等进行分类后，拆分成一个独立的服务，可以分布式的部署在任何服务器，本质上还是解耦和复用。eureka为这些细分的服务提供服务注册和发现等支持。
 ### eureka-server
 首先做一个服务注册中心，idea可以很方便的通过springboot-Initializr可以很方便的new一个这样的应用，在依赖中勾选eureka server即可，手动敲得话也就是maven或者gradle的包管理中加入spring-cloud-starter-netflix-eureka-server依赖（这种带有spring-cloud-starter的东西就是把常见的依赖包分类整合，不用一个一个找而已，用python pip包好像从来没纠结过这些...）。注册中心管理注册的各个服务实例，通过心跳等机制进行基本的监控，可以直接用浏览器打开应用的web地址，看到eureka注册中心后台页面。
