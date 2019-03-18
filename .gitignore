@@ -1,0 +1,20 @@
+# idea
+.idea
+*.iml
+
+# java class files
+*.class
+
+# logs
+*.log
+logs/
+
+# for maven
+target/
+.mvn
+mvnw
+mvnw.cmd
+
+
+# 根据需要追加其他不需要的文件和目录
+
