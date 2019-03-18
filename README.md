@@ -2,7 +2,7 @@
 
 其实就是阅读了 [Spring Cloud学习-Eureka、Ribbon和Feign](https://www.jianshu.com/p/0aef3724e6bc) 之后，自己通过idea完全新建和手过了一遍而已，完全没有什么业务逻辑，就是看看“是什么”，和“怎么用“。
 
-因为偏好python, php, 以及js之类的脚本语言，自己打造全栈产品一般不打算重度使用java技术栈，不过netflix以springboot为基础，确实在微服务领域做了很多工作，很多前言架构思想值得学习。
+因为偏好python, php, 以及js之类的脚本语言，自己打造全栈产品一般不打算重度使用java技术栈，不过netflix以springboot为基础，确实在微服务领域做了很多工作，很多前沿架构思想值得学习。
 
 不打算做个学究，仅就个人理解简单的梳理一下，不负责展开和深入，不确保与官方权威一致。
 
