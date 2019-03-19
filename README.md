@@ -1,7 +1,7 @@
-service-register: eureka服务注册中心应用
-service-producer: 服务提供者，实际执行业务操作的服务
-service-consumer-ribbon: 服务消费者的ribbon版本
-service-consumer-feign: 服务消费者feign版本
+* service-register: eureka服务注册中心应用
+* service-producer: 服务提供者，实际执行业务操作的服务
+* service-consumer-ribbon: 服务消费者的ribbon版本
+* service-consumer-feign: 服务消费者feign版本
 
 接触Spring Cloud皮毛后，做了一些基本尝试来对基于Spring Cloud技术栈实施微服务开发有个初步了解
 
